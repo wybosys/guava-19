@@ -44,6 +44,7 @@
     <!-- TODO(cpovirk): want this only for dependency plugin but seems not to work there? Maven runs without failure, but the resulting Javadoc is missing the hoped-for inherited text -->
   </dependencies>
   <build>
+    <finalName>guava-rns-v19</finalName>
     <plugins>
       <plugin>
         <extensions>true</extensions>
